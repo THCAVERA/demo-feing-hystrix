@@ -1,0 +1,31 @@
+[
+     {
+      "endpoint": "http://viacep.com.br/ws/03802015/json/",
+      "conteudo": {
+        "habilitado": true,
+        "duracao": "3600",
+        "invalidaQuando": {
+          "campo": "cupom",
+          "operator": "!=",
+          "valor": "teste"
+        }
+      }
+    }
+  ,
+  {
+      "endpoint": "http://viacep.com.br/ws/03802015/json/",
+      "conteudo": {
+        "habilitado": true,
+        "duracao": "3600",
+        "invalidaQuando": {
+          "campo": "cupom",
+          "operator": "!=",
+          "valor": "teste"
+        }
+      }
+    }
+
+]
+
+
+

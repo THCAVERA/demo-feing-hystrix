@@ -1,2 +1,12 @@
-br\com\demo\hystrix\client\CepClient.class
+br\com\demo\hystrix\controller\CepController.class
+br\com\demo\hystrix\ClientProperties.class
+br\com\demo\hystrix\service\AppRunner.class
+br\com\demo\hystrix\handler\CepHandler.class
+br\com\demo\hystrix\payload\CepPayload$CepPayloadBuilder.class
+br\com\demo\hystrix\payload\CepPayload.class
+br\com\demo\hystrix\payload\CepHandlerResponse$CepHandlerResponseBuilder.class
 br\com\demo\hystrix\DemoHystrixApplication.class
+br\com\demo\hystrix\threadLocal\CepThreadLocal.class
+br\com\demo\hystrix\payload\CepHandlerResponse.class
+br\com\demo\hystrix\service\CepService.class
+br\com\demo\hystrix\exception\CepException.class

@@ -1,16 +1,3 @@
-hystrix:
-  command:
-    default:
-      execution.isolation.thread:
-        timeoutInMilliseconds: 6000
-      circuitBreaker.forceClosed: true
-    CepClient#getCep(String):
-      execution.isolation.thread:
-        timeoutInMilliseconds: 25000
-  threadpool.default:
-    maximumSize: ${PICPAY_CREDIT_REGISTRATION_HYSTRIX_MAX_POOL_SIZE:100}
-    allowMaximumSizeToDivergeFromCoreSize: true
-
 
 cep:
   properties:
