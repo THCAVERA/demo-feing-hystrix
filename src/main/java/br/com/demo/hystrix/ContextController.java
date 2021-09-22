@@ -20,4 +20,5 @@ public class ContextController {
     public List<ContextResponse> getContexto(@RequestBody ContextRequest request){
         return service.getAllContexts(request);
     }
+
 }

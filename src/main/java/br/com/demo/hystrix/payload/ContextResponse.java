@@ -5,7 +5,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.math.BigDecimal;
 import java.util.Map;
 
 @Data
@@ -17,4 +16,4 @@ public class ContextResponse {
     private boolean elegivel;
     private boolean aplicado;
     private Map<String,String> dadosExtra;
-    }
+}

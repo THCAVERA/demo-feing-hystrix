@@ -1,6 +1,6 @@
 [
      {
-      "endpoint": "http://viacep.com.br/ws/03802015/json/",
+      "endpoint": "http://localhost:8086/pessoa/get-contexto",
       "conteudo": {
         "habilitado": true,
         "duracao": "3600",
@@ -10,21 +10,19 @@
           "valor": "teste"
         }
       }
-    }
-  ,
+    },
   {
-      "endpoint": "http://viacep.com.br/ws/03802015/json/",
-      "conteudo": {
-        "habilitado": true,
-        "duracao": "3600",
-        "invalidaQuando": {
-          "campo": "cupom",
-          "operator": "!=",
-          "valor": "teste"
-        }
+    "endpoint": "http://localhost:8086/pessoa/get-contexto2",
+    "conteudo": {
+      "habilitado": true,
+      "duracao": "3600",
+      "invalidaQuando": {
+        "campo": "cupom",
+        "operator": "!=",
+        "valor": "teste"
       }
     }
-
+  }
 ]
 
 
